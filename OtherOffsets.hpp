@@ -4,9 +4,9 @@
 /*                  https://offsets.imtheo.lol                  
 /* -------------------------------------------------------------
 /*  Dumped With     : RbxDumperV2                               
-/*  Roblox Version  : version-2269b67864ab4ad4
+/*  Roblox Version  : version-ddf602d9cfe44005
 /*  Dumper Version  : 2.1.7
-/*  Dumped At       : 21:52 10/08/2026 (GMT)
+/*  Dumped At       : 22:59 11/08/2026 (GMT)
 /*  Total Offsets   : 388
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
@@ -17,7 +17,7 @@
 #include <cstdint>
 #include <string>
 namespace Offsets {
-    inline std::string ClientVersion = "version-2269b67864ab4ad4";
+    inline std::string ClientVersion = "version-ddf602d9cfe44005";
 
     namespace AirProperties {
          inline constexpr uintptr_t AirDensity = 0x18;
@@ -173,7 +173,7 @@ namespace Offsets {
     }
 
     namespace FakeDataModel {
-         inline constexpr uintptr_t Pointer = 0x8b79dd8;
+         inline constexpr uintptr_t Pointer = 0x8b79b58;
          inline constexpr uintptr_t RealDataModel = 0x1d8;
     }
 
@@ -202,7 +202,7 @@ namespace Offsets {
 
     namespace Humanoid {
          inline constexpr uintptr_t AutoJumpEnabled = 0x1d4;
-         inline constexpr uintptr_t AutoRotate = 0xaf;
+         inline constexpr uintptr_t AutoRotate = 0x1d5;
          inline constexpr uintptr_t AutomaticScalingEnabled = 0x1d6;
          inline constexpr uintptr_t BreakJointsOnDeath = 0x1d7;
          inline constexpr uintptr_t CameraOffset = 0x128;
@@ -228,14 +228,14 @@ namespace Offsets {
          inline constexpr uintptr_t MoveToPoint = 0x164;
          inline constexpr uintptr_t NameDisplayDistance = 0x1b0;
          inline constexpr uintptr_t NameOcclusion = 0x1b4;
-         inline constexpr uintptr_t PlatformStand = 0x1dc;
-         inline constexpr uintptr_t PlatformStatePointer = 0x2e20d609;
+         inline constexpr uintptr_t PlatformStand = 0xc5;
+         inline constexpr uintptr_t PlatformStatePointer = 0x1f194a97;
          inline constexpr uintptr_t RequiresNeck = 0x1dd;
          inline constexpr uintptr_t RigType = 0x1c0;
          inline constexpr uintptr_t SeatPart = 0x108;
          inline constexpr uintptr_t Sit = 0x1dd;
          inline constexpr uintptr_t TargetPoint = 0x14c;
-         inline constexpr uintptr_t UseJumpPower = 0x1e0;
+         inline constexpr uintptr_t UseJumpPower = 0xc5;
          inline constexpr uintptr_t WalkTimer = 0x408;
          inline constexpr uintptr_t Walkspeed = 0x1d0;
          inline constexpr uintptr_t WalkspeedCheck = 0x3bc;
@@ -331,7 +331,7 @@ namespace Offsets {
     namespace Misc {
          inline constexpr uintptr_t Adornee = 0xf0;
          inline constexpr uintptr_t AnimationId = 0xc0;
-         inline constexpr uintptr_t StringLength = 0x0;
+         inline constexpr uintptr_t StringLength = 0x10;
          inline constexpr uintptr_t Value = 0xb8;
     }
 
@@ -442,8 +442,8 @@ namespace Offsets {
     }
 
     namespace RunService {
-         inline constexpr uintptr_t HeartbeatFPS = 0xec;
-         inline constexpr uintptr_t HeartbeatTask = 0x330;
+         inline constexpr uintptr_t HeartbeatFPS = 0xf4;
+         inline constexpr uintptr_t HeartbeatTask = 0x3b8;
     }
 
     namespace Script {
@@ -487,7 +487,7 @@ namespace Offsets {
     }
 
     namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x1e8;
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3d;
          inline constexpr uintptr_t Enabled = 0x1e9;
          inline constexpr uintptr_t ForcefieldDuration = 0x1e0;
          inline constexpr uintptr_t Neutral = 0x1ea;
@@ -526,7 +526,7 @@ namespace Offsets {
          inline constexpr uintptr_t JobName = 0x18;
          inline constexpr uintptr_t JobStart = 0xc8;
          inline constexpr uintptr_t MaxFPS = 0xb0;
-         inline constexpr uintptr_t Pointer = 0x88b6718;
+         inline constexpr uintptr_t Pointer = 0x88b64c8;
     }
 
     namespace Team {
@@ -549,8 +549,8 @@ namespace Offsets {
     }
 
     namespace Tool {
-         inline constexpr uintptr_t CanBeDropped = 0xad;
-         inline constexpr uintptr_t Enabled = 0x294;
+         inline constexpr uintptr_t CanBeDropped = 0x4b8;
+         inline constexpr uintptr_t Enabled = 0x4b9;
          inline constexpr uintptr_t Grip = 0x4ac;
          inline constexpr uintptr_t ManualActivationOnly = 0x4ba;
          inline constexpr uintptr_t RequiresHandle = 0x4bb;

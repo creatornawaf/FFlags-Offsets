@@ -229,7 +229,7 @@ namespace Offsets {
          inline constexpr uintptr_t NameDisplayDistance = 0x1b0;
          inline constexpr uintptr_t NameOcclusion = 0x1b4;
          inline constexpr uintptr_t PlatformStand = 0xc5;
-         inline constexpr uintptr_t PlatformStatePointer = 0x1f194a97;
+         inline constexpr uintptr_t PlatformStatePointer = 0x0522a2f9;
          inline constexpr uintptr_t RequiresNeck = 0x1dd;
          inline constexpr uintptr_t RigType = 0x1c0;
          inline constexpr uintptr_t SeatPart = 0x108;
